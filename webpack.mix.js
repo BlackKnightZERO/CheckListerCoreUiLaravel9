@@ -14,3 +14,9 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .sourceMaps();
+
+// mix.js('resources/js/app.js', 'public/js')
+//     .js(['resources/js/eladmin/main.js','fullcalendar-init.js','weather-init.js' ], 'public/eladmin/js/scripts.js')
+//     .styles(['resources/css/eladmin/cs-skin-elastic.css','resources/css/eladmin/style.css.css'], 'public/eladmin/css/styles.css')
+//     .styles('resources/css/app.css', 'public/css')
+//     .extract();
