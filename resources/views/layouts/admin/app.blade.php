@@ -18,7 +18,7 @@
   </head>
   <body class="sb-nav-fixed" onload="startTime()">
 
-    @include('layouts.admin.partials.header')
+    @include('layouts.admin.partials.navbar')
 
     <div id="layoutSidenav">
     
